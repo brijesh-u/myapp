@@ -1,0 +1,25 @@
+.NavContainer{
+    display: flex;
+}
+.NavLeft{
+    flex: 0.4;
+    background-color: rgb(50, 112, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavLeft img{
+    height: 40px;
+    background-color: rgb(50, 112, 226);
+    margin: 7px 30px;
+    border-radius: 7px;
+}
+.SearchBox{
+    display: flex;
+}
+.SearchBox input{
+    border: none;
+    outline-width: 0px;
+}
+
+
