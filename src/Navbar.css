@@ -21,5 +21,9 @@
     border: none;
     outline-width: 0px;
 }
-
+.NavRight{
+    display: flex;
+    background-color: rgb(50, 112, 226);
+    float: right;
+}
 
