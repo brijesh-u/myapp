@@ -1,0 +1,18 @@
+.Components{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px 20px;
+    background-color: rgb(50, 112, 226);      
+}
+.Icon,.Title {
+    background-color: rgb(50, 112, 226); 
+    object-fit: contain;  
+}
+.Components:hover{
+   color: antiquewhite;
+}
+/* .Avatar{
+    size: 5px;
+} */

@@ -1,5 +1,25 @@
 .NavContainer{
     display: flex;
+    overflow: hidden;
+    object-fit: contain;    
+}
+.LogoText{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(50, 112, 226);
+    
+}
+.Logo{
+    display: flex;
+    background-color: rgb(50, 112, 226);
+    ;
+}
+.Logo:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
 }
 .NavLeft{
     flex: 0.4;
@@ -10,20 +30,26 @@
 }
 .NavLeft img{
     height: 40px;
-    background-color: rgb(50, 112, 226);
     margin: 7px 30px;
+    margin-left: 2px;
     border-radius: 7px;
 }
 .SearchBox{
     display: flex;
+    margin-left: 9px;
+    width: 250px;
 }
 .SearchBox input{
     border: none;
     outline-width: 0px;
+    width: 240px;
 }
 .NavRight{
     display: flex;
     background-color: rgb(50, 112, 226);
-    float: right;
+    /* justify-content: center; */
+    flex: 0.6;
+
+    
 }
 
