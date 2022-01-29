@@ -1,0 +1,21 @@
+.Sidebar{
+    position: sticky;
+    top: 80px;
+    border-radius: 10px;
+    flex: 0.2;
+    text-align: center;
+    height: fit-content;
+    /* background: aqua; */
+}
+.Avatar{
+    margin-top: 10px;
+}
+.SidebarTop{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    margin: 100px;
+    padding: 0;
+    border-radius: 5px;
+}
