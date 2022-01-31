@@ -6,8 +6,8 @@
     top: 0px;
 }
 .LogoText{
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 650;
     margin-top: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(50, 112, 226);
@@ -16,7 +16,6 @@
 .Logo{
     display: flex;
     background-color: rgb(50, 112, 226);
-    ;
 }
 .Logo:hover{
     transform: scale(1.1);
@@ -29,9 +28,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 .NavLeft img{
-    height: 40px;
+    height: 35px;
     margin: 7px 30px;
     margin-left: 2px;
     border-radius: 7px;
@@ -51,7 +52,7 @@
     background-color: rgb(50, 112, 226);
     /* justify-content: center; */
     flex: 0.6;
-
-    
+    position: sticky;
+    top: 0px;    
 }
 

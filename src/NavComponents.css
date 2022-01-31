@@ -4,10 +4,10 @@
     align-items: center;
     cursor: pointer;
     /* margin: 15px 20px; */
-    margin-top: 0;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 15px;
+    margin-top: 10;
+    margin-left: 35px;
+    margin-right: 15px;
+    margin-bottom: 10px;
     background-color: rgb(50, 112, 226);      
 }
 .Icon,.Title {
@@ -16,16 +16,19 @@
 }
 .Components:hover{
    color: antiquewhite;
+   transform: scale(1.1);
+   transition: 0.1s;
 }
 .Avatar{
-    height: 25px!important;
-    width: 25px!important;
+    height: 30px!important;
+    width: 30px!important;
     margin-bottom: 2px;
-    padding-top: 0!important;
+    /* padding-top: 0!important; */
+    margin-top: 4px!important;
 } 
 /* .Components h5{
     margin-top: 10px;
 } */
 .Icon{
-    margin-top: 12px;
+    margin-top: 10px;
 }
