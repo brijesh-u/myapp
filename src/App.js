@@ -7,11 +7,12 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <div className="AppBody">
       <Sidebar/>
       {/* sidebar
       feed
       news */}
-
+      </div>
     </div>
   );
 }

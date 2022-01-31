@@ -1,21 +1,27 @@
 .Sidebar{
     position: sticky;
     top: 80px;
-    border-radius: 10px;
-    flex: 0.2;
+    flex:0.2;
     text-align: center;
     height: fit-content;
-    /* background: aqua; */
+    margin-left: 100px;
 }
 .Avatar{
-    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.SidebarTop > img{
+    margin-bottom: -20;
+    width: 100%;
+    object-fit: cover;
+    height: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .SidebarTop{
     display: flex;
-    align-items: center;
     flex-direction: column;
-    border: 3px solid black;
-    margin: 100px;
-    padding: 0;
-    border-radius: 5px;
+    align-items: center;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
