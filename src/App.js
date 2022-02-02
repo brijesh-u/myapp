@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import Navbar from './Navbar';
 import Sidebar from "./Sidebar1";
+import Feed from "./Feed";
 
 function App() {
   return (
@@ -9,9 +10,8 @@ function App() {
       <Navbar/>
       <div className="AppBody">
       <Sidebar/>
-      {/* sidebar
-      feed
-      news */}
+      <Feed/>
+      {/* news */}
       </div>
     </div>
   );
