@@ -1,23 +1,15 @@
 .InputType{
-    display: inline-flex;
+    display: flex;
     align-items: center;
     color: gray;
     cursor: pointer;
-    padding: 10px 48px;
-    position: relative;
-    
+    padding: 10px 50px;
 }
 .InputType:hover{
     background-color: whitesmoke;
-    border-radius: 10px;
+    border-radius: 20px;
+    color: black;
 }
 .InputItems > h4{
     margin-left: 5px;
-}
-.InputItems{
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
 }

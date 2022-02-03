@@ -18,7 +18,7 @@ function Feed(){
                      <button type="submit">Post</button>
                   </form>
               </div>
-              <div className="inputItems">
+              <div className="InputItems">
                   <InputItems Icon={ImageIcon} title='Photo' color='#7085F9' />
                   <InputItems Icon={SubscriptionsIcon} title='Video' color='#E7A33E' />
                   <InputItems Icon={EventNoteIcon} title='Event' color='#C0CBCD' />

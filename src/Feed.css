@@ -4,7 +4,7 @@
     position: absolute;
     top: 8%;
     left: 23%;
-    width:49%;
+    width:50%;
     /* overflow: hidden; */
     }
 .container{
@@ -34,4 +34,7 @@
     }
     .input_container > form >button{
         display: none;
+    }
+    .InputItems{
+        display: flex;
     }
