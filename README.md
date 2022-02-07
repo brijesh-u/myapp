@@ -1,2 +1,1 @@
-# Getting Started with React
-# creating a Linkdin clone app
+# yea tho bahut nice app hai yea tho merai pasand ki app hai
